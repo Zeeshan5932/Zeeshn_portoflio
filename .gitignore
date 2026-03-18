@@ -26,3 +26,6 @@ dist-ssr
 
 backup/
 .env
+
+# Local source model file is not needed for deploy and breaks push if LFS object is missing
+public/models/character.glb
